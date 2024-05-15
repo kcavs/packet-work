@@ -8,7 +8,7 @@ public class Dice {
     }
     public void roll(){
         die1=(int) (Math.random()*6)+1;
-        die2=(((int)Math.random()*6)+1);
+        die2=(int) (Math.random()*6)+1;
     }
     public int getTotal(){
         int t=die1+die2;
